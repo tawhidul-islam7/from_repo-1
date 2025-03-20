@@ -1,0 +1,24 @@
+.wrapper{
+    width: 60%;
+    margin: 50px;
+    border: 5px solid #ccc;
+
+}
+ 
+ labrl{
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+
+    
+
+ }
+
+.username,.first_name,.last_name,.email,.password,.confirm_password,.NID,.phone,.Massage{
+    width: 90%;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+ }
