@@ -3,50 +3,293 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML-FROM</title>
-    <link rel="stylesheet" href="styles/from.css">
+    <title>html 100 tag </title>
 </head>
 <body>
-    <form action="#" method="get" enctype="multipart/form-data"> 
-    <h1>Registration Form</h1>
-<br>
-    <label for="username">Username:</label><br>
-    <input type="text" placeholder="Enter your username" name="username" id="username" class="username">
+    HTML comment: <!-- This is a comment -->
+    Create a link  : <a href="https://www.facebook.com/tawhidulislam87">This is a link</a>
+    Abbreviation: <abbr title="Bangladesh">BD</abbr>
+    <address>
+        Written by <a href="mailto:https://www.facebook.com/tawhidulislam87">Tawhidul Islam</a>.<br>
+        Visit us at:<br>
+        tawhidulislam87.com<br>
+        barguna,patharghata,8700
+        Bangladesh.
+    </address>
+    Image map, with clickable areas: <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+    <article>
+        <h1>HTML article Tag</h1>
+        <p>Article is a container for any content that makes sense on its own, such as a news article, a blog post, a comment or an interactive widget.</p>
+    </article>
+    <aside>
+        <h2>HTML aside Tag</h2>
+        <p>Aside is a container for content that is related to the main content, but does not belong to the main content.</p>
+    </aside>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <b>HTML b Tag</b>
+    <base href="hdkjfnsdbheflbwejfb">
+    <bdi>Isolates a part of text that might be formatted in a different direction from other text outside it.</bdi>
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+    <blockquote cite="jdhfhjgewflkwjevfkvf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, in.</blockquote>
+    <body>
+        <h1>The body element</h1>
+        <p>The content of the document......</p>
+    </body>
     <br>
-        <label for="first_name" >First_name:</label><br>
-        <input type="text"placeholder="Enter your first name" name="first_name "id="first_name" class="first_name">
-    <br>
-        <label for="last_name" >Last_name:</label><br>
-        <input type="text"placeholder="Enter your last_name" name="last_name "id="last_name" class="last_name">
-    <br>
-    <label fro="email">Email:</label><br>
-    <input type ="email" placeholder="Enter your email" name="email" id="email" class="email">
-    <br>"
-    <label for ="password">Password:</label><br>
-    <input type =password placeholder="Enter your password " name ="password " id="password" class="password">
-    <br>
-    <label for="cornfirm_password">Confirm_password:</label><br>
-    <input type="password" placeholder="Enter your confirm password" name="confirm_password" id="confirm_password" class="confirm_password">
-    <br>
-    <label for="NID">NID:</label><br>
-    <input type="text" placeholder="Enter your NID" name="NID" id="NID" class="NID">
-    <br>
-    <label for="phone">Phone:</label><br>
-    <input type="text" placeholder="Enter your phone" name="phone" id="phone" class="phone">
-    <br>
-    <label for="gender">Gender</label>
-    
-    <input type="radio" value="Male"name="gender" id="gender" class="gender">
-    <span>Male</span>
+    <button>Click me</button>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #761919;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    <caption>Table caption</caption>
+    <cite>HTML cite Tag</cite>
+    <code>HTML code Tag</code>
+    <p>The HTML <code>button</code> tag defines a clickable button.</p> 
+    <col>
+    <col span="2" style="background-color:red">
+    <col style="background-color:rgb(18, 18, 4)">
+    <colgroup><col span="2" style="background-color:red">
+        <col style="background-color:rgb(56, 56, 43)">
+    </colgroup>
+    <data value="152000000" date="2025-03-18">267 million</data>
+    <datalist>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+    </datalist>
+    </datalist>
+    <details>
+        <summary>HTML details Tag</summary>
+        <p>The details tag is used to Specify details that the user can open and close on demand.</p>
+    </details>
+    <dfn>HTML dfn Tag</dfn>
+    <dialog open>HTML dialog Tag</dialog>
+    <div>
+        <h2>HTML div Tag</h2>
+        <p>The div tag is used to group block-elements to format them with CSS.</p>
+    </div>
+    <dl>
+        <dt>HTML dt Tag</dt>
+        <dd>HTML dd Tag</dd>
+    </dl>
+    <dt>HTML dt Tag</dt>
+    <em>HTML em Tag</em>
+    <embed src="helloworld.swf">
+    <fieldset>
+        <legend>Personalia:</legend>
+        Name: <input type="text"><br>
+        Email: <input type="text"><br>
+        Date of birth: <input type="text">
+    </fieldset>
+    <figcaption>Figure caption</figcaption>
+    <figure>
+        <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
+    <footer>
+        <p>Posted by: Hege Refsnes</p>
+        <p>Contact information: <a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+    <h1>HTML h1 Tag</h1>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <header>
+        <h1>City Gallery</h1>
+    </header>
+    <hr>
+    <html>
+        <head>
+            <title>Page Title</title>
+        </head>
+        <body>
+            <h1>This is a heading</h1>
+            <p>This is a paragraph.</p>
+        </body>
+    </html>
+    <i>HTML i Tag</i>
+    <iframe src="demo_iframe.htm" height="200" width="300"></iframe>
+    <img>
+    <input type="text">
+    <ins>HTML ins Tag</ins>
+    <kbd>HTML kbd Tag</kbd>
+    <label></label>
+    <legend>Personalia:</legend>
+    <li>HTML li Tag</li>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <main>
+        <h1>Most Popular Browsers</h1>
+        <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+    </main>
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+    <mark>HTML mark Tag</mark>
+    <menu>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </menu>
+    <meta charset="UTF-8">
+    <meter value="2" min="0" max="10">2 out of 10</meter>
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+    </nav>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <object data="helloworld.swf" width="550" height="400"></object>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <optgroup label="Swedish Cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+    </optgroup>
+    <option value="volvo">Volvo</option>
+    <output for="x y">x + y = z</output>
+    <p>HTML p Tag</p>
+    <param name="autoplay" value="true">
+    <picture>
+        <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+        <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+        <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    <pre>
+        Text in a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both spaces and
+        line breaks
+    </pre>
+    <progress value="22" max="100">22%</progress>
+    <q>HTML q Tag</q>
+    <rp>HTML rp Tag</rp>
+    <rt>HTML rt Tag</rt>
+    <ruby>HTML ruby Tag</ruby>
+    <s>HTML s Tag</s>
+    <samp>HTML samp Tag</samp>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+    <section>
+        <h1>WWF</h1>
+        <p>The World Wide Fund for Nature (WWF) is....</p>
 
-    <input type="radio" value="female"name="gender" id="gender" class="gender">
-    <span>Female</span>
-    <br>
-    <label for=" your masssage" >Massage:</label><br>
-    <textarea name="massage" id="massage" class="massage" cols="30"rowa="72" placeholder="Type your massage"></textarea>
-    <br>    
-    <button type="submit" class="submit">Submit</button>
-    <button type="reset" class="reset">Reset</button>
-
+        <article>
+            <h1>Panda</h1>
+            <p>The panda is a bear native to central-western and south western China.</p>
+        </article>
+    </section>
+    <select>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+    <small>HTML small Tag</small>
+    <source src="movie.mp4" type="video/mp4">
+    <span style="color:blue">This is a span element</span>
+    <strong>HTML strong Tag</strong>
+    <style>
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        color: navy;
+        margin-left: 20px;
+    }
+    </style>
+    <sub>HTML sub Tag</sub>
+    <summary>HTML summary Tag</summary>
+    <sup>HTML sup Tag</sup>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+        </tr>
+        <tr>
+            <td>Lois</td>
+            <td>Griffin</td>
+        </tr>
+    </table>
+    <tbody>
+        <tr>
+            <td>Bill Gates</td>
+            <td>$75 Billion</td>
+        </tr>
+    </tbody>
+    <td>Bill Gates</td>
+    <template>
+        <h2>Flowers</h2>
+        <img src="img_white_flower.jpg" alt="Flowers" width="150" height="150">
+    </template>
+    <textarea rows="4" cols="50">
+   Hi this is tawhidul islam.
+    </textarea>
+    <tfoot>
+        <tr>
+            <td>Sum</td>
+            <td>$180</td>
+        </tr>
+    </tfoot>
+    <th>Firstname</th>
+    <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+    </thead>
+    <time datetime="2008-02-14">Valentine's Day</time>
+    <title>HTML title Tag</title>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+    <u>HTML u Tag</u>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <var>HTML var Tag</var>
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <wbr>HTML wbr Tag</wbr>
 </body>
 </html>
