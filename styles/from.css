@@ -1,5 +1,7 @@
 .wrapper{
     width: 60%;
+    margin: 50px auto;
+    padding: 20px;
     margin: 50px;
     border: 5px solid #ccc;
 
@@ -17,8 +19,49 @@
  }
 
 .username,.first_name,.last_name,.email,.password,.confirm_password,.NID,.phone,.Massage{
-    width: 90%;
+    width: 70%;
+    margin:   auto;
     height: 25px;
     font-size: 18px;
     padding: 10px;
+    margin-bottom: 10px;
  }
+ .Massage{ 
+     width: 130%;
+    margin: 40pxo;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    
+   
+ }
+
+  
+.submit{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+   
+}
+rect{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    margin: 50px;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid #ccc;
+}
+table{
+    width: 70%;
+   border:1px solid #333;   
+    
+}
+th,td{
+    font-size: 20px;
+    text-align:center;
+    border:1px solid #ccc;
+}
+td:hover {
+    background-color: blue;
+}
