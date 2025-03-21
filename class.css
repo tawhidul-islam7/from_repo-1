@@ -1,0 +1,30 @@
+
+body {
+    background-color: bisque;
+    margin: 0;
+   
+}
+
+
+
+header {
+	background-color: #0e72cc 
+}
+header h1{
+    margin: 2px;
+    padding: 2px;
+    color: rgb(45, 15, 15);
+}
+.box {
+    height: 150px;
+    width: 200px;
+    background-color: #f9799a; ;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(139, 130, 130);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+    
